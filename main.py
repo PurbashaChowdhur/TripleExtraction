@@ -13,7 +13,7 @@ class KGExtractor:
         self.llm = ChatOllama(
             model=model,
             temperature=0,
-            base_url="http://localhost:11434"
+            base_url="http://127.0.0.1:11434"
             # base_url="http://labs.larus-ba.it/ollama"
             # other params ...
         )
