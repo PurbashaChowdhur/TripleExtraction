@@ -1,0 +1,1424 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/airo#"
+     xml:base="https://w3id.org/airo"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:airo="https://w3id.org/airo#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/airo">
+        <owl:versionIRI rdf:resource="https://w3id.org/airo/1.0"/>
+        <terms:bibliographicCitation>Delaram Golpayegani, Harshvardhan J. Pandit, and Dave Lewis. AIRO: An ontology for representing AI risks based on the proposed EU AI Act and ISO risk management standards. Towards a Knowledge-Aware AI. IOS Press, 2022. 51-65.</terms:bibliographicCitation>
+        <terms:contributor>Dave Lewis</terms:contributor>
+        <terms:contributor>Harshvardhan J. Pandit</terms:contributor>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-01</terms:created>
+        <terms:creator>Delaram Golpayegani</terms:creator>
+        <terms:description xml:lang="en">AIRO represents AI risk concepts and relations based on the EU AI Act and ISO/IEC AI and risk management standards.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-01-01</terms:issued>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-25</terms:modified>
+        <terms:publisher>ADAPT Centre, Trinity College Dublin</terms:publisher>
+        <terms:source xml:lang="en">EU AI Act</terms:source>
+        <terms:source xml:lang="en">ISO 31000 series</terms:source>
+        <terms:title>AIRO</terms:title>
+        <bibo:doi xml:lang="en">10.5281/zenodo.10894750</bibo:doi>
+        <bibo:status>http://purl.org/ontology/bibo/status/published</bibo:status>
+        <vann:preferredNamespacePrefix>airo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/airo#</vann:preferredNamespaceUri>
+        <rdfs:label xml:lang="en">AI Risk Ontology</rdfs:label>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <foaf:logo rdf:resource="https://github.com/DelaramGlp/airo/blob/main/figures/airo-logo.png?raw=true"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#expectedDataType -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dqv#expectedDataType"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#hasQualityMeasurement -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dqv#hasQualityMeasurement"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#inDimension -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dqv#inDimension"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#isMeasurementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dqv#isMeasurementOf"/>
+    
+
+
+    <!-- https://w3id.org/airo#compliesWithRegulation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#compliesWithRegulation">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Regulation"/>
+        <rdfs:comment xml:lang="en">Indicates compliance with a specific regulation.</rdfs:comment>
+        <rdfs:label xml:lang="en">complies with regulation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#conformsToStandard -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#conformsToStandard">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Standard"/>
+        <rdfs:comment xml:lang="en">Indicates conformance of an entity to a standard.</rdfs:comment>
+        <rdfs:label xml:lang="en">conforms to standard</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#detectsRiskConcept -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#detectsRiskConcept">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#modifiesRiskConcept"/>
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <rdfs:comment xml:lang="en">Indicates the control used for detecting risks, risk sources, consequences, and impacts.</rdfs:comment>
+        <rdfs:label xml:lang="en">detects risk concept</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#eliminatesRiskConcept -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#eliminatesRiskConcept">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#modifiesRiskConcept"/>
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <rdfs:comment xml:lang="en">Indicates the control used for eliminating  risks, risk sources, consequences, and impacts.</rdfs:comment>
+        <rdfs:label xml:lang="en">eliminates risk concept</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#exploitsVulnerability -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#exploitsVulnerability">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskSource"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Vulnerability"/>
+        <rdfs:comment xml:lang="en">Indicates vulnerabilities exploited by a risk source.</rdfs:comment>
+        <rdfs:label xml:lang="en">exploits vulnerability</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#followsCodeOfConduct -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#followsCodeOfConduct">
+        <rdfs:range rdf:resource="https://w3id.org/airo#CodeOfConduct"/>
+        <rdfs:comment xml:lang="en">Indicates the code of conduct followed.</rdfs:comment>
+        <rdfs:label xml:lang="en">follows code of conduct</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasAISubject -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasAISubject">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#AISystem"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AISubject"/>
+        <rdfs:comment xml:lang="en">Indicates the AI subject of an AI system.</rdfs:comment>
+        <rdfs:label xml:lang="en">has AI subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasAIUser -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasAIUser">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#AISystem"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AIUser"/>
+        <rdfs:comment xml:lang="en">Indicate the end-user of an AI system.</rdfs:comment>
+        <rdfs:label xml:lang="en">has AI user</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasAutomationLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasAutomationLevel">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#AISystem"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AutomationLevel"/>
+        <rdfs:comment xml:lang="en">Indicates the system&apos;s level of automation.</rdfs:comment>
+        <rdfs:label xml:lang="en">has automation level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasCapability -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasCapability">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AICapability"/>
+        <rdfs:comment xml:lang="en">Specifies capabilities implemented within an AI system to materialise its purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">has capability</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasChangedEntity -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasChangedEntity">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Change"/>
+        <rdfs:comment xml:lang="en">Indicates the entity that is being changed.</rdfs:comment>
+        <rdfs:label xml:lang="en">has changed entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasComponent">
+        <rdfs:range rdf:resource="https://w3id.org/airo#AIComponent"/>
+        <rdfs:comment xml:lang="en">Indicates a component incorporating an AI system or another component.</rdfs:comment>
+        <rdfs:label xml:lang="en">has component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasConsequence -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasConsequence">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Risk"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Consequence"/>
+        <rdfs:comment xml:lang="en">Specifies consequences caused by materialisation of a risk.</rdfs:comment>
+        <rdfs:label>has consequence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasControlOverAIOutput -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasControlOverAIOutput">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#ModeOfOutputControllability"/>
+        <rdfs:comment xml:lang="en">Indicates the level of control a stakeholder has over outputs produced by an AI system.</rdfs:comment>
+        <rdfs:label xml:lang="en">has control over AI output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasDocumentation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasDocumentation">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Documentation"/>
+        <rdfs:comment xml:lang="en">Indicates documentation associated with an entity, e.g. AI model, AI system.</rdfs:comment>
+        <rdfs:label xml:lang="en">has documentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasFrequency -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasFrequency">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Frequency"/>
+        <rdfs:comment xml:lang="en">Indicates frequency of an event, e.g. change.</rdfs:comment>
+        <rdfs:label xml:lang="en">has frequency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasHumanInvolvement -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasHumanInvolvement">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#HumanInvolvement"/>
+        <rdfs:comment xml:lang="en">Indicates the type involvement of a human.</rdfs:comment>
+        <rdfs:label xml:lang="en">has human involvement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasImpact -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasImpact">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Consequence"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Impact"/>
+        <rdfs:comment xml:lang="en">Specifies the impact caused by materialisation of a consequence.</rdfs:comment>
+        <rdfs:label xml:lang="en">has impact</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasImpactOnArea -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasImpactOnArea">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Impact"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AreaOfImpact"/>
+        <rdfs:comment>Specifies the area (e.g. physical health) that is impacted by an  AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">has impact on area</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasImpactOnEntity -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasImpactOnEntity">
+        <rdfs:comment xml:lang="en">Indicates entities, e.g. environment, impacted by AI systems.</rdfs:comment>
+        <rdfs:label xml:lang="en">has impact on entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasImpactOnStakeholder -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasImpactOnStakeholder">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#hasImpactOnEntity"/>
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Impact"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <rdfs:comment xml:lang="en">Indicates the people that are (negatively) impacted by an AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">has impact on stakeholder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasInput -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasInput">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Input"/>
+        <rdfs:comment xml:lang="en">Indicates the input an AI system or componet need to process to generate output.</rdfs:comment>
+        <rdfs:label xml:lang="en">has input</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasLicense -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasLicense">
+        <rdfs:range rdf:resource="https://w3id.org/airo#License"/>
+        <rdfs:comment xml:lang="en">Indicates licenses associated with a resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">has license</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasLifecyclePhase -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasLifecyclePhase">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AILifecyclePhase"/>
+        <rdfs:comment xml:lang="en">Indicates the lifecycle phase of the AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">has lifecycle phase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasLikelihood -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasLikelihood">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Likelihood"/>
+        <rdfs:comment xml:lang="en">Indicates the probability of occurrence of risks, risk sources, consequences, or impacts.</rdfs:comment>
+        <rdfs:label xml:lang="en">has likelihood</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasModality -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasModality">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Modality"/>
+        <rdfs:comment xml:lang="en">Indicates the modality in which an entity exists.</rdfs:comment>
+        <rdfs:label xml:lang="en">has modality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasModel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasModel">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#hasComponent"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AIModel"/>
+        <rdfs:comment xml:lang="en">Indicates machine learning models used with a system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">has model</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasPreDeterminedChange -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasPreDeterminedChange">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Change"/>
+        <rdfs:comment xml:lang="en">Indicates the changes that are planned to be applied to the system, components, or context of use.</rdfs:comment>
+        <rdfs:label xml:lang="en">has pre-determined change</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasPurpose -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasPurpose">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Purpose"/>
+        <rdfs:comment xml:lang="en">Indicates the purpose of an entity, e.g. AI system, components.</rdfs:comment>
+        <rdfs:label xml:lang="en">has purpose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasResidualRisk -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasResidualRisk">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#Risk"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Risk"/>
+        <rdfs:comment xml:lang="en">Indicates the residual risk</rdfs:comment>
+        <rdfs:comment xml:lang="en">has residual risk</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasRisk -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasRisk">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Risk"/>
+        <rdfs:comment xml:lang="en">Indicates risks associated with an AI system, an AI component, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">has risk</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasRiskControl -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasRiskControl">
+        <rdfs:range rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:comment xml:lang="en">Indicates the control measures associated with a system or component to modify risks.</rdfs:comment>
+        <rdfs:label xml:lang="en">has risk control</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasSeverity -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasSeverity">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#Consequence"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#Impact"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Severity"/>
+        <rdfs:comment xml:lang="en">Indicates severity of a consequence or an impact.</rdfs:comment>
+        <rdfs:label xml:lang="en">has severity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasStakeholder -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasStakeholder">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <rdfs:comment xml:lang="en">Indicates stakeholders of an AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">has stakeholder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasTestingData -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasTestingData">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#hasComponent"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Data"/>
+        <rdfs:comment xml:lang="en">Indicates datasets used for testing.</rdfs:comment>
+        <rdfs:label xml:lang="en">has testing data</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasTrainingData -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasTrainingData">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#hasComponent"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Data"/>
+        <rdfs:comment xml:lang="en">Indicates datasets used in training.</rdfs:comment>
+        <rdfs:label xml:lang="en">has training data</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasValidationData -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasValidationData">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#hasComponent"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Data"/>
+        <rdfs:comment xml:lang="en">Indicates datasets used for validation.</rdfs:comment>
+        <rdfs:label xml:lang="en">has validation data</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasVersion -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasVersion">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Version"/>
+        <rdfs:comment xml:lang="en">Indicates the version of an entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">has version</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#hasVulnerability -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#hasVulnerability">
+        <rdfs:range rdf:resource="https://w3id.org/airo#Vulnerability"/>
+        <rdfs:comment xml:lang="en">Indicates vulnerabilities associated with an entity, e.g. AI system and its components.</rdfs:comment>
+        <rdfs:label xml:lang="en">has vulnerability</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isAppliedWithinDomain -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isAppliedWithinDomain">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Domain"/>
+        <rdfs:comment xml:lang="en">Specifies the domain an AI system or component is used within.</rdfs:comment>
+        <rdfs:label xml:lang="en">is applied within domain</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isDeployedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isDeployedBy">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AIDeployer"/>
+        <rdfs:comment xml:lang="en">Indicates the deployer of an AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">is deployed by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isDevelopedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isDevelopedBy">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AIDeveloper"/>
+        <rdfs:comment xml:lang="en">Indicates the developer of a system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">is developed by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isFollowedByControl -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isFollowedByControl">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:comment xml:lang="en">Specifies the order of controls.</rdfs:comment>
+        <rdfs:label xml:lang="en">is followed by control</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isPartOfControl -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isPartOfControl">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:comment xml:lang="en">Specifies composition of controls</rdfs:comment>
+        <rdfs:label xml:lang="en">is part of control</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isProvidedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isProvidedBy">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#Input"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AIProvider"/>
+        <rdfs:comment xml:lang="en">Indicates the provider of an AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">is provided by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isRiskSourceFor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isRiskSourceFor">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskSource"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Risk"/>
+        <rdfs:comment xml:lang="en">Specifies risks caused by materialisation of a risk source.</rdfs:comment>
+        <rdfs:label xml:lang="en">is risk source for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#isUsedWithinLocality -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#isUsedWithinLocality">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#LocalityOfUse"/>
+        <rdfs:comment xml:lang="en">Indicates the locality of use.</rdfs:comment>
+        <rdfs:label xml:lang="en">is used within locality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#mitigatesRiskConcept -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#mitigatesRiskConcept">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/airo#modifiesRiskConcept"/>
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <rdfs:comment xml:lang="en">Indicates the control used for mitigating  risks, risk sources, consequences, and impacts.</rdfs:comment>
+        <rdfs:label xml:lang="en">mitigates risk concept</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#modifiesRiskConcept -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#modifiesRiskConcept">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#RiskControl"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <rdfs:comment xml:lang="en">Indicates the control employed to modify risks, risk sources, consequences, and impacts.</rdfs:comment>
+        <rdfs:label xml:lang="en">modifies risk concept</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#producesOutput -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#producesOutput">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#Output"/>
+        <rdfs:comment xml:lang="en">Specifies an output generated by an AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">produces output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#runsOnHardware -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#runsOnHardware">
+        <rdfs:domain rdf:resource="https://w3id.org/airo#AISystem"/>
+        <rdfs:range rdf:resource="https://w3id.org/airo#HardwarePlatform"/>
+        <rdfs:comment xml:lang="en">Indicates the hardware on which the system runs.</rdfs:comment>
+        <rdfs:label xml:lang="en">runs on hardware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/airo#usesTechnique -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/airo#usesTechnique">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/airo#AIComponent"/>
+                    <rdf:Description rdf:about="https://w3id.org/airo#AISystem"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/airo#AITechnique"/>
+        <rdfs:comment xml:lang="en">Indicates the AI techniques used in an AI system or component.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses technique</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dpv#hasData -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dpv#hasData"/>
+    
+
+
+    <!-- https://w3id.org/dpv#hasDataSource -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dpv#hasDataSource"/>
+    
+
+
+    <!-- https://w3id.org/dpv#hasDataSubject -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dpv#hasDataSubject"/>
+    
+
+
+    <!-- https://w3id.org/dpv#hasLegalBasis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dpv#hasLegalBasis"/>
+    
+
+
+    <!-- https://w3id.org/dpv#hasProcessing -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dpv#hasProcessing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/dqv#value"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#Dimension -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dqv#Dimension"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#Metric -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dqv#Metric"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dqv#QualityMeasurement -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dqv#QualityMeasurement"/>
+    
+
+
+    <!-- https://w3id.org/airo#AICapability -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AICapability">
+        <rdfs:comment xml:lang="en">The capability of an AI system that enables realisation of the system&apos;s purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Capability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AIComponent -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AIComponent">
+        <terms:source xml:lang="en">ISO/IEC 22989, 3.1.2</terms:source>
+        <rdfs:comment xml:lang="en">Functional element that constructs an AI system.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AIDeployer -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AIDeployer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#AIOperator"/>
+        <terms:source xml:lang="en">EU AI Act, Article 3(4)</terms:source>
+        <rdfs:comment xml:lang="en">Any natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Deployer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AIDeveloper -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AIDeveloper">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <terms:source xml:lang="en">ISO/IEC 22989, 5.19.3.2</terms:source>
+        <rdfs:comment xml:lang="en">An organisation or entity that is concerned with the development of AI services and products.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Developer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AILifecyclePhase -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AILifecyclePhase">
+        <rdfs:comment xml:lang="en">A Phase of AI lifecycle which indicates evolution of the system from conception through retirement.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Lifecycle Phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AIModel -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AIModel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#AIComponent"/>
+        <terms:source xml:lang="en">ISO/IEC TR 24028, 3.24</terms:source>
+        <rdfs:comment xml:lang="en">Mathematical construct that generates an inference or prediction, based on input data.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AIOperator -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AIOperator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <terms:source xml:lang="en">EU AI Act, Article 3(8)</terms:source>
+        <rdfs:comment xml:lang="en">Refers to a provider, product manufacturer, deployer, authorised representative, importer or distributor.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Operator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AIProvider -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AIProvider">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#AIOperator"/>
+        <terms:source xml:lang="en">EU AI Act, Article 3(3)</terms:source>
+        <rdfs:comment xml:lang="en">A natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AISubject -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AISubject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <rdfs:comment xml:lang="en">An entity that is subject to or impacted by the use of AI.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Subject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AISystem -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AISystem">
+        <terms:source xml:lang="en">EU AI Act, Article 3(1)</terms:source>
+        <rdfs:comment xml:lang="en">A machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AITechnique -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AITechnique">
+        <rdfs:comment xml:lang="en">Approaches or techniques used in development of a system.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI Technique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AIUser -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AIUser">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#Stakeholder"/>
+        <terms:source xml:lang="en">ISO/IEC TR 24028, 3.37</terms:source>
+        <rdfs:comment xml:lang="en">Individual or group that interacts with a system.</rdfs:comment>
+        <rdfs:label xml:lang="en">AI User</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AreaOfImpact -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AreaOfImpact">
+        <rdfs:comment xml:lang="en">Areas or aspects impacted by an AI system, e.g. physical health, right to privacy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Area Of Impact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#AutomationLevel -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#AutomationLevel">
+        <rdfs:comment xml:lang="en">Refers to the degree of automation under which an AI system operates.</rdfs:comment>
+        <rdfs:label xml:lang="en">Automation Level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Change -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Change">
+        <rdfs:comment xml:lang="en">An alternation in an entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Change</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#CodeOfConduct -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#CodeOfConduct">
+        <rdfs:comment xml:lang="en">A non-binding set of norms and responsibilities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Code Of Conduct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Consequence -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Consequence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <terms:source xml:lang="en">ISO 31000, 3.6 [with modifications]</terms:source>
+        <terms:source xml:lang="en">ISO 31073:2022, 3.3.18 [with modifications]</terms:source>
+        <rdfs:comment xml:lang="en">Direct outcome of risk affecting objectives.</rdfs:comment>
+        <rdfs:label xml:lang="en">Consequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Data -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Data">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#AIComponent"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv#Data"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/TR/vocab-dcat-3/Dataset"/>
+        <rdfs:comment xml:lang="en">Refers to dataset and the broad concept of data</rdfs:comment>
+        <rdfs:label xml:lang="en">Data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Documentation -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Documentation">
+        <rdfs:comment xml:lang="en">Refers to documeneted information.</rdfs:comment>
+        <rdfs:label xml:lang="en">Documentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Domain -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Domain">
+        <rdfs:comment xml:lang="en">An area, sector, or industry that is associated with economic activities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Frequency -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Frequency">
+        <terms:source xml:lang="en">ISO 31073:2022, 3.3.20</terms:source>
+        <rdfs:comment xml:lang="en">Number of events or outcomes per defined unit of time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Frequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#GPAIModel -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#GPAIModel">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#AIModel"/>
+        <terms:source xml:lang="en">EU AI Act, Article 3(63)</terms:source>
+        <rdfs:comment xml:lang="en">An AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications.</rdfs:comment>
+        <rdfs:label xml:lang="en">General Purpose AI Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#HardwarePlatform -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#HardwarePlatform">
+        <rdfs:comment>The hardware on which the system is run.</rdfs:comment>
+        <rdfs:label>Hardware Platform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Hazard -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Hazard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#RiskSource"/>
+        <terms:source xml:lang="en">ISO 31073:2022, 3.3.12</terms:source>
+        <rdfs:comment xml:lang="en">Source of potential harm.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hazard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#HumanInvolvement -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#HumanInvolvement">
+        <rdfs:comment xml:lang="en">Indicates involvement of humans.</rdfs:comment>
+        <rdfs:label xml:lang="en">Human Involvement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Impact -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Impact">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#Consequence"/>
+        <rdfs:comment xml:lang="en">The outcome of a consequence on individuals, groups, society, environment, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">Impact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Input -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Input">
+        <rdfs:comment xml:lang="en">Input for which the system or component generates output.</rdfs:comment>
+        <rdfs:label xml:lang="en">Input</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#License -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#License">
+        <rdfs:comment xml:lang="en">Represents a copyright license.</rdfs:comment>
+        <rdfs:label xml:lang="en">License</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Likelihood -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Likelihood">
+        <terms:source xml:lang="en">ISO 31073:2022, 3.3.16</terms:source>
+        <rdfs:comment xml:lang="en">Chance of something happening.</rdfs:comment>
+        <rdfs:label xml:lang="en">Likelihood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#LocalityOfUse -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#LocalityOfUse">
+        <rdfs:comment xml:lang="en">The area, e.g. facility or institution, in which an entity is used.</rdfs:comment>
+        <rdfs:label xml:lang="en">Locality Of Use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Misuse -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Misuse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#Risk"/>
+        <rdfs:comment xml:lang="en">The use of an AI system or component  in a way that is not in accordance with its intended purpose.</rdfs:comment>
+        <rdfs:label xml:lang="en">Misuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Modality -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Modality">
+        <rdfs:comment xml:lang="en">The form in which the system exists or is represented.</rdfs:comment>
+        <rdfs:label xml:lang="en">Modality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#ModeOfOutputControllability -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#ModeOfOutputControllability">
+        <rdfs:comment xml:lang="en">The level of control over AI outputs exercised by humans.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mode Of Output Controllability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Output -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Output">
+        <rdfs:comment xml:lang="en">Output generated by the system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Output</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Purpose -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Purpose">
+        <rdfs:comment xml:lang="en">The end goal for which an entity is used or an action is taken.</rdfs:comment>
+        <rdfs:label xml:lang="en">Purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Regulation -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Regulation">
+        <rdfs:comment xml:lang="en">A binding legislative act.</rdfs:comment>
+        <rdfs:label xml:lang="en">Regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Risk -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Risk">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <rdfs:comment xml:lang="en">the state of uncertainty associated with an AI system, that has the potential to cause harms and is expressed in terms of risk sources, consequences, impacts, likelihood, and severity</rdfs:comment>
+        <rdfs:label xml:lang="en">Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#RiskConcept -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#RiskConcept">
+        <rdfs:comment xml:lang="en">An umbrella term for refering to risk, risk source, consequence and impact.</rdfs:comment>
+        <rdfs:label xml:lang="en">Risk Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#RiskControl -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#RiskControl">
+        <terms:source>ISO/IEC 31073, 3.3.33 (with expansion of scope)</terms:source>
+        <rdfs:comment xml:lang="en">A measure that maintains and/or modifies risk (and risk concepts).</rdfs:comment>
+        <rdfs:label xml:lang="en">Risk Control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#RiskSource -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#RiskSource">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#RiskConcept"/>
+        <terms:source>ISO 31073:2022, 3.3.10</terms:source>
+        <rdfs:comment xml:lang="en">An element which alone or in combination has the potential to give rise to risk.</rdfs:comment>
+        <rdfs:label xml:lang="en">Risk Source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Severity -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Severity">
+        <rdfs:comment xml:lang="en">Indicates the level of severity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Severity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Stakeholder -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Stakeholder">
+        <rdfs:comment xml:lang="en">Represents any individual, group or organization that can affect, be affected by or perceive itself to be affected by a decision or activity.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ISO/IEC 22989, 3.5.13</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Stakeholder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Standard -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Standard">
+        <terms:source>Regulation (EU) No 1025/2012 on European standardisation</terms:source>
+        <rdfs:comment xml:lang="en">A technical specification, adopted by a recognised standardisation body, for repeated or continuous application, with which compliance is not compulsory.</rdfs:comment>
+        <rdfs:label xml:lang="en">Standard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Threat -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Threat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/airo#RiskSource"/>
+        <terms:source xml:lang="en">ISO 31073:2022, 3.3.13</terms:source>
+        <rdfs:comment xml:lang="en">Potential source of danger, harm, or other undesirable outcome.</rdfs:comment>
+        <rdfs:label xml:lang="en">Threat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Version -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Version">
+        <rdfs:comment xml:lang="en">A unique number or name that is assigned to a unique state of an AI system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/airo#Vulnerability -->
+
+    <owl:Class rdf:about="https://w3id.org/airo#Vulnerability">
+        <terms:source xml:lang="en">ISO 31073:2022, 3.3.21 with modifications</terms:source>
+        <rdfs:comment xml:lang="en">Refers to  properties of an entity, e.g. AI system or AI component, resulting in susceptibility to a risk source</rdfs:comment>
+        <rdfs:label xml:lang="en">Vulnerability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dpv#Data -->
+
+    <owl:Class rdf:about="https://w3id.org/dpv#Data"/>
+    
+
+
+    <!-- https://w3id.org/dpv#DataSource -->
+
+    <owl:Class rdf:about="https://w3id.org/dpv#DataSource"/>
+    
+
+
+    <!-- https://w3id.org/dpv#DataSubject -->
+
+    <owl:Class rdf:about="https://w3id.org/dpv#DataSubject"/>
+    
+
+
+    <!-- https://w3id.org/dpv#LegalBasis -->
+
+    <owl:Class rdf:about="https://w3id.org/dpv#LegalBasis"/>
+    
+
+
+    <!-- https://w3id.org/dpv#Processing -->
+
+    <owl:Class rdf:about="https://w3id.org/dpv#Processing"/>
+    
+
+
+    <!-- https://w3id.org/dpv#SensitiveData -->
+
+    <owl:Class rdf:about="https://w3id.org/dpv#SensitiveData">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/dpv#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3.org/TR/vocab-dcat-3/Dataset -->
+
+    <owl:Class rdf:about="https://www.w3.org/TR/vocab-dcat-3/Dataset"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
